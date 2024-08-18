@@ -8,11 +8,13 @@ public class CubeMultiMover : MonoBehaviour
     [SerializeField] private float _moveSpeed;
     [SerializeField] private float _rotationSpeed;
     [SerializeField] private float _scaleSpeed;
+    
     private void Update()
     {
         float speedChange = _moveSpeed * Time.deltaTime;
         transform.Translate(_direction*speedChange);
-        transform.Rotate(_rotation * _rotationSpeed);
+        float rotationChange = _rotationSpeed * Time.deltaTime;
+        transform.Rotate(_rotation * rotationChange);
         float scaleChange = _scaleSpeed * Time.deltaTime;
         transform.localScale += Vector3.one * scaleChange;
     }
