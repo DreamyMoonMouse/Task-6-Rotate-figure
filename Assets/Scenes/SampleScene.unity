@@ -580,7 +580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveSpeed: 2
-  _rotationSpeed: 0.1
+  _rotationSpeed: 100
   _scaleSpeed: 0.1
 --- !u!65 &1577872255
 BoxCollider:
@@ -703,7 +703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8896c417db54274094f60ee64ed316c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationSpeed: 1
+  _rotationSpeed: 100
 --- !u!65 &1866730507
 BoxCollider:
   m_ObjectHideFlags: 0
