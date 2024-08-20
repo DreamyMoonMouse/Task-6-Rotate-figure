@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class SphereMover : MonoBehaviour
+public class Mover : MonoBehaviour
 {
-    private Vector3 _direction = Vector3.forward;
     [SerializeField] private float _moveSpeed;
+    private Vector3 _direction = Vector3.forward;
     
     private void Update()
     {

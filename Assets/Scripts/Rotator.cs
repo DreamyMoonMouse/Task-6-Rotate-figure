@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class CubeRotator : MonoBehaviour
+public class Rotator : MonoBehaviour
 {
-    private Vector3 _rotation = Vector3.up;
     [SerializeField] private float _rotationSpeed;
+    private Vector3 _rotation = Vector3.up;
     
     private void Update()
     {
